@@ -28,5 +28,3 @@
  ![image](https://github.com/GreenEli/SpiderOnFinance/blob/main/pic/5.png)
  
 6. 此外还有爬取的公司融资网友评价信息等等，就不一一举例，运行相关代码即可。
-
-![image](https://github.com/GreenEli/SpiderOnFinance/blob/main/pic/6.png)
