@@ -1,32 +1,32 @@
 # SpiderOnFinance
-## 起因：
-项目中，我们需要一些能有效爬取的非法金融原始数据源，但现阶段非法金融原始数据源爬取数量不如预期，于是笔者前段时间去其它网址逛了一逛。
-## 经过：
-现阶段很多网站都配置了一定的反扒技术，尤其像这种金融数据源网站，笔者略过了一些技术复杂度比较高的反爬技术（如验证码、封IP等），针对一般的反扒技术爬取了相关的金融原始数据源。
-## 快速简单入手
-### 准备基础：
-笔者 python版本2.7.16，操作系统为deepin，python编辑器为Pycharm
-接下来展示实际爬取的案例
-1. Clone本地的python代码文件，接着用pycharm编辑器打开这些文件
+## Cause:
+In the project, we need some illegal financial original data sources that can be crawled effectively, but the number of illegal financial original data sources crawled is not as expected at this stage, so I went to other websites some time ago to visit.
+## process:
+At this stage, many websites are equipped with certain anti-scrabble technologies. Especially like this kind of financial data source website, the author has skipped some anti-climbing technologies with relatively high technical complexity (such as verification codes, IP blocking, etc.), relevant financial original data sources are crawled for the general anti-picking technology.
+## Get started quickly and easily
+### Preparation basics:
+The author's python version is 2.7.16, the operating system is deepin, and the python editor is Pycharm.
+Next, show the actual crawling case.
+1. Clone the local python code files, and then use the pycharm editor to open these files.
 
  ![image](https://github.com/GreenEli/SpiderOnFinance/blob/main/pic/1.png)
 
-2. 爬取目标为中国银监会上的处罚信息公开表，如下所示
+2. The crawling target is the penalty information disclosure form on the China Banking Regulatory Commission, as shown below
  
  ![image](https://github.com/GreenEli/SpiderOnFinance/blob/main/pic/2.png)
  
-3. 运行requesthtml.py程序，得到银监会相当数量的信息公开表（如下所示）
+3. Run the requesthtml.py program to get a considerable number of information disclosure forms from the China Banking Regulatory Commission (as shown below)
  
  ![image](https://github.com/GreenEli/SpiderOnFinance/blob/main/pic/3.png)
  
-4. 爬取目标为网贷天眼上可疑公司相关数据（如下所示）
+4. The crawl target is the relevant data of suspicious companies on "Net Loan Eye" (see below)
  
  ![image](https://github.com/GreenEli/SpiderOnFinance/blob/main/pic/4.png)
  
-5. 运行项目中P2P.py,得到相关爬取数据信息源，在项目的P2P.et文件中爬取收集了5000多个可疑公司数据信息
+5. Run P2P.py in the project to get the relevant crawling data information source, crawling and collecting more than 5000 suspicious company data information in the P2P.et file of the project.
  
  ![image](https://github.com/GreenEli/SpiderOnFinance/blob/main/pic/5.png)
  
-6. 此外还有爬取的公司融资网友评价信息等等，就不一一举例，运行相关代码即可。
+6. In addition, there are crawled company financing netizens' evaluation information, etc., so I won't give examples one by one, just run the relevant code.
 
 ![image](https://github.com/GreenEli/SpiderOnFinance/blob/main/pic/6.png)
